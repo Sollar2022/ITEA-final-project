@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Mania</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kosugi&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/@djthoms/pretty-checkbox" >
+</head>
+<body>
+    <div class="cupon hide">
+        <div class="cupon-body">
+            <span class="cupon-closeBtn">&times;</span>
+            <div class="cupon-header">
+                <img class="cupon-img" src="./images/pizza-full.png" alt="pizza">
+                    <div class="cupon-bunner">
+                        <div class="cupon-title">Wow ! Discont</div>
+                        <div class="cupon-subtitle brand-color brand-colorDay">30%</div>    
+                    </div>
+            </div>
+            <div class="cupon-text">use your coupon number :</div>
+            <div class="cupon-info">
+                ........
+            </div>
+            <div class="cupon-button button button-bgDay">Ok</div>
+        </div>
+    </div>
+    
+        <div class="header-container bg-day">
+            <header> 
+            <div class="nav-bar">
+			    <a href="./index.html" class="nav-logo link">
+                    <div class="logo">
+                        <div class="logo-img logo-imgDay"></div>
+                        <span class="logo-text brand-color brand-colorDay "> mania</span>
+                    </div>
+                </a>  
+			    <nav class="nav">
+				    <ul class="nav-list list">
+					    <li class="nav-item"><a href="#home" class="nav-link brand-color brand-colorDay link" >Home</a></li>
+					    <li class="nav-item"><a href="#menu" class="nav-link brand-color brand-colorDay link">Menu</a></li>
+					    <li class="nav-item" id="cuponModal" ><a href="#" class="nav-link brand-color brand-colorDay link" >Specials & Coupons</a></li>
+					    <li class="nav-item"><a href="#contact" class="nav-link brand-color brand-colorDay link">Contact Us</a></li>          
+				    </ul>
+			    </nav>
+                <div class="toggle">
+                    <div class="toggle-line toggle-lineDay line1"></div>
+                    <div class="toggle-line toggle-lineDay line2"></div>
+                    <div class="toggle-line toggle-lineDay line3"></div>
+                    <div class="toggle-line toggle-lineDay line4"></div>
+                </div>
+            </div>
+        </header>
+        </div>
+    
+    <main>
+        <section class="about" id="home">
+            <div class="about-container bg-day">
+                <div class="about-content">
+                    <div class="about-info">
+                        <h1 class="about-title brand-color brand-colorDay">Pizza family</h1>
+                        <p class="about-subtitle color-brawn">people disappoint, but pizza never does.</p>
+                        <div class="location">
+                            <input type="text" class="location-input location-inputDay">
+                            <div class="search-btn button button-bgDay"><span><img src="./images/icons/search-location.png" alt="icon search" width="19"></span> Search Location</div>
+                        </div>
+                        <a href="#" class="main-btn button button-bgDay link">Try now</a>
+                    </div>
+                    <div class="about-img"></div>
+                </div>
+                <div class="select-button day-icon"></div>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <div class="menu-container bg-day">
+                <h2 class="menu-title brand-color brand-colorDay">menu</h2>
+                <div class="menu-content">
+                    <div class="menu-img"></div>
+                    <div class="menu-info color-brawn">
+                        <div class="menu-infoSection">
+                            <div class="menu-infoTitle">Ingradients for creation</div>
+                            <div class="menu-infoContent">
+                                <div class="pizza-base">
+                                    <div class="menu-infoSubtitle">Pizza's base</div>
+                                    <div class="menu-ingradientItem">
+                                    <div class="ingradientItem-title">Pizza's base 24sm</div>
+                                    <div class="dotted dotted-day"></div>
+                                    <div class="ingradientItem-price">$ 1.00</div>       
+                                    </div>
+                                    <div class="menu-ingradientItem">
+                                    <div class="ingradientItem-title">Pizza's base 30sm</div>
+                                    <div class="dotted dotted-day"></div>
+                                    <div class="ingradientItem-price">$ 1.60</div>       
+                                    </div>
+                                    <div class="menu-ingradientItem">
+                                    <div class="ingradientItem-title">Pizza's base 35sm</div>
+                                    <div class="dotted dotted-day"></div>
+                                    <div class="ingradientItem-price">$ 2.15</div>       
+                                    </div>
+                                    <div class="menu-ingradientItem">
+                                    <div class="ingradientItem-title">Pizza's base 45sm</div>
+                                    <div class="dotted dotted-day"></div>
+                                    <div class="ingradientItem-price">$ 3.50</div>       
+                                    </div>
+                                </div>
+                                <div class="pizza-supplement">
+                                    <div class="menu-infoSubtitle">Pizza's supplements</div>
+                                    <div class="menu-ingradientItem">
+                                        <div class="ingradientItem-title">Chees 70gr</div>
+                                        <div class="dotted dotted-day"></div>
+                                        <div class="ingradientItem-price">$ 0.85</div>       
+                                    </div>
+                                    <div class="menu-ingradientItem">
+                                        <div class="ingradientItem-title">Champignon 25gr</div>
+                                        <div class="dotted dotted-day"></div>
+                                        <div class="ingradientItem-price">$ 0.60</div>       
+                                    </div>
+                                    <div class="menu-ingradientItem">
+                                        <div class="ingradientItem-title">Pepper 15gr</div>
+                                        <div class="dotted dotted-day"></div>
+                                        <div class="ingradientItem-price">$ 0.50</div>       
+                                    </div>
+                                    <div class="menu-ingradientItem">
+                                        <div class="ingradientItem-title">Olives 20gr</div>
+                                        <div class="dotted dotted-day"></div>
+                                        <div class="ingradientItem-price">$ 0.55</div>       
+                                    </div>                                 
+                                    <div class="menu-ingradientItem">
+                                        <div class="ingradientItem-title">Chicken 25gr</div>
+                                        <div class="dotted dotted-day"></div>
+                                        <div class="ingradientItem-price">$ 0.70</div>       
+                                    </div>
+                                    <div class="menu-ingradientItem">
+                                        <div class="ingradientItem-title">Hunting sausages 50gr</div>
+                                        <div class="dotted dotted-day"></div>
+                                        <div class="ingradientItem-price">$ 0.90</div>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-infoSection">
+                            <div class="menu-infoTitle">Gourmet Pizza</div>
+                            <div class="menu-infoContent">
+                                <div class="menu-pizzaItem">
+                                    <div class="pizzaItem-info">
+                                        <div class="pizzaItem-title">Meat Pizza</div>
+                                        <div class="pizzaItem-subtitle">chicken, ham, salami, bacon, mozzarella, hunting sausages,  barbecue sauce</div>
+                                    </div>
+                                    <div class="pizzaItem-price">
+                                        <div class="price-item">
+                                            <div class="price-itemSize">24 sm</div>
+                                            <div class="price-itemPrice">$ 6.35</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">30 sm</div>
+                                            <div class="price-itemPrice">$ 8.50</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">35 sm</div>
+                                            <div class="price-itemPrice">$ 10.85</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">45 sm</div>
+                                            <div class="price-itemPrice">$ 13.90</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-pizzaItem">
+                                    <div class="pizzaItem-info">
+                                        <div class="pizzaItem-title">Margarita Pizza</div>
+                                        <div class="pizzaItem-subtitle">sauce, chees, oregano, tomatoes</div>
+                                    </div>
+                                    <div class="pizzaItem-price">
+                                        <div class="price-item">
+                                            <div class="price-itemSize">24 sm</div>
+                                            <div class="price-itemPrice">$ 3.90</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">30 sm</div>
+                                            <div class="price-itemPrice">$ 6.00</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">35 sm</div>
+                                            <div class="price-itemPrice">$ 8.35</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">45 sm</div>
+                                            <div class="price-itemPrice">$ 11.40</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-pizzaItem">
+                                    <div class="pizzaItem-info">
+                                        <div class="pizzaItem-title">Hawaiian Pizza</div>
+                                        <div class="pizzaItem-subtitle">sauce, chees, oregano, ham, pineapple</div>
+                                    </div>
+                                    <div class="pizzaItem-price">
+                                        <div class="price-item">
+                                            <div class="price-itemSize">24 sm</div>
+                                            <div class="price-itemPrice">$ 4.00</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">30 sm</div>
+                                            <div class="price-itemPrice">$ 6.25</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">35 sm</div>
+                                            <div class="price-itemPrice">$ 9.05</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">45 sm</div>
+                                            <div class="price-itemPrice">$ 11.50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-pizzaItem">
+                                    <div class="pizzaItem-info">
+                                        <div class="pizzaItem-title">Pepperoni Pizza</div>
+                                        <div class="pizzaItem-subtitle">Peperoni, mozzarella, parmesan, bell pepper, thyme, marinara sauce</div>
+                                    </div>
+                                    <div class="pizzaItem-price">
+                                        <div class="price-item">
+                                            <div class="price-itemSize">24 sm</div>
+                                            <div class="price-itemPrice">$ 4.15</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">30 sm</div>
+                                            <div class="price-itemPrice">$ 5.80</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">35 sm</div>
+                                            <div class="price-itemPrice">$ 7.50</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">45 sm</div>
+                                            <div class="price-itemPrice">$ 10.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-pizzaItem">
+                                    <div class="pizzaItem-info">
+                                        <div class="pizzaItem-title">Veggie Pizza</div>
+                                        <div class="pizzaItem-subtitle">sauce, chees, oregano, pepper, tomatoes, garlic</div>
+                                    </div>
+                                    <div class="pizzaItem-price">
+                                        <div class="price-item">
+                                            <div class="price-itemSize">24 sm</div>
+                                            <div class="price-itemPrice">$ 4.05</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">30 sm</div>
+                                            <div class="price-itemPrice">$ 6.55</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">35 sm</div>
+                                            <div class="price-itemPrice">$ 8.40</div>
+                                        </div>
+                                        <div class="price-item">
+                                            <div class="price-itemSize">45 sm</div>
+                                            <div class="price-itemPrice">$ 11.75</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-infoBtn button button-bgDay">Explore more</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="extramenu">
+            <div class="extramenu-container extramenu-bgDay">
+                <h2 class="hide">extramenu</h2>
+                <div class="extramenu-content">
+                    <div class="extramenu-bunner color-brawn">
+                        <p class="extramenu-title"><span class="brand-color brand-colorDay">pizza</span>  of the month</p>
+                        <div class="extramenu-subtitle">
+                           <p>the big</p>
+                           <div class="brand-color brand-colorDay">bird</div>
+                        </div>
+                    </div>
+                    <div class="extramenu-img"></div>
+                    <div class="extramenu-info">
+                        <ul class="extramenu-list color-brawn">
+                            <li class="extramenu-item">Meat Pizza</li>
+                            <li class="extramenu-item">Margarita Pizza</li>
+                            <li class="extramenu-item">Hawaiian Pizza</li>
+                            <li class="extramenu-item">Pepperoni Pizza</li>
+                            <li class="extramenu-item">Veggie Pizza</li>
+                            <li class="extramenu-item">Cheese Pizza</li>
+                        </ul>
+                        <div class="extramenu-buttons">
+                            <a href="#checkOut" class="extramenu-btn button button-bgDay link">Order online now</a>
+                            <a href="#menu" class="extramenu-btn button button-bgDay link">See our menu</a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        <section class="reservation" id="contact">
+            <div class="reservation-container reservation-bgDay">
+                <div class="reservation-content color-black">
+                    <div class="reservation-topic">*terms & conditions applied.</div>
+                    <div class="reservation-form card-day">
+                        <div class="form-header">
+                            <h2 class="reservation-title color-orangeDay">Reservation</h2>
+                            <p>Book online or give us a call on +91 1111 222 333</p>
+                            <p>Between 9:30 am - 10:00 pm</p>
+                         </div>
+                        <div class="form-item">
+                            <div class="form-itemText"><label for="name">Name</label>
+                            </div>
+                            <input type="text" class="form-inp border-day" id="name" required>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-itemText"><label for="email">E-mail</label>
+                            </div>
+                            <input type="email" class="form-inp border-day" id="email" required>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-itemText"><label for="number">people number</label>
+                            </div>
+                            <input type="text" class="form-inp border-day" id="number" required>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-itemText"><label for="date">Date & time</label>
+                            </div>
+                            <input type="text" class="form-inp border-day" id="date" required>
+                            
+                        </div>
+                        <div class="reservation-submit">
+                             <input class="submit-btn button button-bgDay color-black" type="submit" value="Send Mail">
+                        </div>
+                       
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="checkOut" id="checkOut">
+            <h2 class="hide">check out</h2>
+            <div class="checkOut-header">
+                <a href="./index.html" class="nav-logo link">
+                    <div class="logo">
+                        <div class="logo-img logo-imgDay"></div>
+                        <span class="logo-text brand-color brand-colorDay "> mania</span>
+                    </div>
+                </a>  
+                <div class="checkOut-headerButtons">
+                    <div class="help-btn"><span><img class="checkOut-headerImg" src="./images/icons/question.png" alt="icon help" ></span> Help</div>
+                    <div class="sign-btn"><span><img class="checkOut-headerImg" src="./images/icons/userplus_.png" alt="icon user plus"></span> Sign in</div> 
+                </div>
+            </div>
+            <div class="checkOut-content color-black">
+               <div class="checkOut-info">
+
+                    <div class="accordion">
+
+                        <div class="accordion-item  checkOut-card checkOut-day">
+                            <div class="checkOut-icon bg-iconDay">
+                                <img src="./images/icons/user.png" alt="user" width="35">
+                            </div>
+                            <div class="checkOut-iconTitle">Account</div>
+                        </div>
+                        <div class="accordion-container hide">
+                            <div class="accordion-text accordion-textDay">
+                                <div class="account-areaText">To place your order now, log in to your existing account or sign up.</div>
+                                <div class="account-areaButtons">
+                                    <div class="account-areaButton">
+                                        <div>Have an account ?</div> 
+                                        <div class="areaButton-topic brand-color brand-colorDay">Log in</div>
+                                    </div>
+                                    <div class="account-areaButton">
+                                        <div>New to Mania ?</div> 
+                                        <div class="areaButton-topic brand-color brand-colorDay">Sign in</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item address checkOut-card checkOut-day">
+                            <div class="checkOut-icon bg-iconDay">
+                                <img src="./images/icons/location.png" alt="location" width="35">
+                            </div>
+                            <div class="checkOut-iconTitle">Delivery address</div>
+                        </div>
+                        <div class="accordion-container hide">
+                            <div class="accordion-text accordion-textDay">
+                                <textarea class="delivery-adress" placeholder="Enter your delivery address"></textarea>
+                            </div>
+                        </div>
+                        <div class="accordion-item payment checkOut-card checkOut-day">
+                            <div class="checkOut-icon bg-iconDay">
+                                <img src="./images/icons/payment.png" alt="payment" width="35">
+                            </div>
+                            <div class="checkOut-iconTitle">Payment</div>
+                        </div>
+                        <div class="accordion-container hide">
+                            <div class="accordion-text accordion-textDay">
+                                <ul class="payment-list list">
+                                    <li><input type="radio" name="payment"><span class="payment-text"> Cash</span></li>
+                                    <li><input type="radio" name="payment"><span class="payment-text">  Mastercard</span></li>
+                                    <li><input type="radio" name="payment"> <span class="payment-text">Visa</span></li>
+                                    <li><input type="radio" name="payment"><span class="payment-text"> Discover</span> </li>
+                                    <li><input type="radio" name="payment"><span class="payment-text">American Express</span> </li>
+                                </ul>
+                            </div>
+                        </div> 
+                    </div>
+               </div> 
+               <div class="checkOut-area">
+                    <div class="bill bill-day">
+                        <div class="bill-header">
+                            <img src="./images/pizza-full.png" alt="pizza">
+                            <div class="bill-bunner">
+                                <div class="bunner-title">Wow ! Pizza</div>
+                                <div class="bunner-subtitle">delivered to this location</div>
+                            </div>
+                        </div>
+                        <div class="bill-choice">
+                            <div class="discount-info discount-infoDay">
+                                <span class="discount-title brand-color brand-colorDay" >Apply coupon code </span> # <input class="discount discount-infoDay" type="text" placeholder="ХХХХ ХХХХ">
+                                <div class="bill-btn button button-bgDay" id="addDiscountBtn"> add discount</div>
+                            </div>
+                            <div class="order-choice">
+                                <div class="select-wrapper">
+                                    <select class="order-select pizza-select" name="pizza">
+                                        <option value="1">Meat Pizza</option>
+                                        <option value="2">Margarita Pizza</option>
+                                        <option value="3">Hawaiian Pizza</option>
+                                        <option value="4">Pepperoni Pizza</option>
+                                        <option value="5">Veggie Pizza</option>
+                                        <option value="6">User's Pizza</option>
+                                    </select>
+                                </div>
+                                <div class="select-wrapper">
+                                    <select class="order-select size-select" name="size" >
+                                        <option value="0">24 sm</option>
+                                        <option value="1">30 sm</option>
+                                        <option value="2">35 sm</option>
+                                        <option value="3">45 sm</option>
+                                    </select>
+                                </div>
+                                <div class="count-block">
+                                    <div class="caunt-btnSub caunt-btn">
+                                        <img src="./images/icons/minus.png" alt="minus" width="12" >
+                                    </div>
+                                    <div class="caunt-field">1</div>
+                                    <div class="caunt-btnAdd caunt-btn">
+                                        <img class="count-img" src="./images/icons/plus.png" alt="plus" width="12" >
+                                    </div>
+                                </div>
+
+                                <div class="cost">
+                                    <div class="item-result"></div>
+                                    <div class="item-cost"></div>
+                                </div>
+                            </div>
+                            <div class="supplements">
+                                <div class="supplements-choice">
+                                    <div class="supplements-item">
+                                        <div class="pretty p-switch p-fill">
+                                            <input type="checkbox" class="supplement" value="0.85">
+                                            <div class="state">
+                                                <label>Chees</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="supplements-item">
+                                        <div class="pretty p-switch p-fill">
+                                            <input type="checkbox" class="supplement" value="0.6">
+                                            <div class="state">
+                                                <label>Champignon</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="supplements-item">
+                                        <div class="pretty p-switch p-fill">
+                                            <input type="checkbox" class="supplement" value="0.5">
+                                            <div class="state">
+                                                <label>Pepper</label>
+                                            </div>
+                                        </div>
+                                    </div>       
+                                </div>
+                                <div class="supplements-choice">
+                                    <div class="supplements-item">
+                                        <div class="pretty p-switch p-fill">
+                                            <input type="checkbox" class="supplement" value="0.55">
+                                            <div class="state">
+                                                <label>Olives</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="supplements-item">
+                                        <div class="pretty p-switch p-fill">
+                                            <input type="checkbox" class="supplement" value="0.7">
+                                            <div class="state">
+                                                <label>Chicken</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="supplements-item">
+                                        <div class="pretty p-switch p-fill">
+                                            <input type="checkbox" class="supplement" value="0.9">
+                                            <div class="state">
+                                                <label>Hunting sausages</label>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                                
+                            </div>
+                            <div class="bill-btn button button-bgDay" id="addBillBtn">add to bill</div>
+                        </div>
+                        <div class="bill-details">
+                            <div class="details-title brand-color brand-colorDay">Bill Details</div>
+                            <div class="details-info"></div>
+                            <div class="details-check">
+                                <div class="check-items">
+                                    <div class="check-item check-itemDay">
+                                        <div class="check-itemTitle">Item total</div>
+                                        <div class="check-itemText item-totalText"></div>
+                                    </div>
+                                    <div class="check-item check-itemDay">
+                                        <div class="check-itemTitle">Item Discount</div>
+                                        <div class="check-itemText item-discountText item-discountDay"></div>
+                                    </div>
+                                    <div class="check-item check-itemDay">
+                                        <div class="check-itemTitle">Taxes and Charges</div>
+                                        <div class="check-itemText item-taxesText"></div>
+                                    </div>
+                                    <div class="total-item total-itemDay">
+                                        <div class="check-itemTitle">To Pay</div>
+                                        <div class="check-itemText item-payText"></div>
+                                    </div>
+                                </div>
+                                <form enctype="multipart/form-data" method="post" id="form" onsubmit="submitForm(event)" action="send.php">
+                                    <input class="inp-itemTotal" type="hidden" name = "itemTotal" >	
+                                    <input class="inp-discount" type="hidden" name = "itemDiscount" >
+                                    <input class="inp-taxes" type="hidden" name = "taxes" >
+                                    <input class="inp-total" type="hidden" name = "total" >
+	                                <input class="pay-button  button button-bgDay" type="submit" id="sendBtn" value="Pay" >
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               <img class="checkOut-bg" src="./images/backgrounds/pizza-slice.png" alt="Pizza-slice">
+            </div>
+
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

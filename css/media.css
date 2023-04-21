@@ -1,0 +1,600 @@
+@media screen and (max-width: 1440px) {
+    html {
+        font-size: 7.5px;
+    }
+
+    .header-container {
+      max-width: 100%;
+      padding-left: 50px;
+      padding-right: 40px;
+    }
+    .logo-img {
+        width: 32px;
+        height: 32px;
+    }
+    .logo-text {
+      font-size: 4.2rem;
+    }
+    .nav-link {
+      margin-left: 20px;
+    }
+
+    /* SECTION ABOUT */
+    .about-container {
+      max-width: 100vw;
+      padding-left: 50px;
+      padding-right: 40px;
+    }
+
+    .about-title {
+      margin-top: 40px;
+      margin-bottom: 52px;
+    }
+
+    .about-subtitle {
+      margin-bottom: 52px;
+    }
+
+    .location {
+      margin-bottom: 50px;
+    }
+    .about-img {
+      max-width: 750px;
+      max-height: 528px; 
+    }
+
+    .select-button {
+      width: 80px;
+      height: 70px;
+    }
+
+    /* SECTION MENU */
+    .menu-container {
+      width: 100%;
+      padding-top: 108px;
+    }
+    .menu-img {
+      width: 330px;
+      height: 670px;
+      margin-bottom: 64px;
+    }
+
+    /* SECTION EXTRAMENU */
+    .extramenu-container {
+      width: 100%;
+      height: 880px;
+    }
+    .extramenu-bunner {
+      width: 47%;
+      margin-top: 100px;
+      margin-left: 52px;
+      margin-right: 20px;
+    }
+
+    .extramenu-list {
+      margin-top: 250px;
+      margin-left: 80px;
+      margin-bottom: 100px;
+    }
+
+    .extramenu-btn:nth-child(1) {
+    margin-right: 60px;
+    margin-left: 90px;
+    }
+
+    /* SECTION RESERVATION */
+    .reservation-container {
+      width: 100%;
+      height: 1080px;
+      padding-top: 60px;
+    }
+
+     /* SECTION CHECK OUT */
+    .checkOut-header {
+      width: 100%;
+      padding: 43px 136px 27px 52px;
+    }
+
+    .checkOut-content {
+      width: 100%;
+      padding: 160px 36px 96px 87px;
+    }
+
+    .accordion-item {
+      width: 470px;
+    }
+  }
+
+  @media screen and (max-width: 1320px) {
+    .menu-img {
+      display: none;
+    }
+    .menu-title {
+      margin-left: 0;
+    }
+    .menu-info {
+      width: 96%;
+      margin: 0 auto;
+    }
+
+    .menu-infoContent {
+      padding-right: 30px;
+    }
+    .extramenu-bunner {
+      font-size: 5.5rem;
+    }
+    .extramenu-list {
+      margin-left: 48px;
+    }
+
+    .extramenu-btn:nth-child(1) {
+      margin-right: 30px;
+      margin-left: 50px;
+      }
+
+      .checkOut-content {
+        flex-direction: column;
+        align-items: center;
+      }
+      .checkOut-info {
+        margin-bottom: 146px;
+      }
+      .accordion-item {
+        width: 600px;
+      }
+  }
+
+  @media screen and (max-width: 990px) {
+    .header-container {
+      padding: 0 30px;
+    }
+
+    .about-container {
+      padding-left: 30px;
+    }
+    .about-content {
+      flex-direction: column;
+    }
+    .about-img {
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 970/698;
+    }
+    
+    .menu-info {
+      display: flex;
+      flex-direction: column;
+    }
+    .menu-infoSection {
+      width: 90%;
+    }
+    .menu-infoTitle {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .menu-infoBtn {
+      width: 190px;
+      height: 56px;
+      margin: 21px auto 50px 10px;
+    }
+    .extramenu-container {
+      height: auto;
+    }
+    .extramenu-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .extramenu-bunner {
+      width: 90%;
+      margin-top: 50px;
+    }
+     
+     .extramenu-list {
+      margin-top: 40px;
+      margin-bottom: 48px;
+    }
+
+    .extramenu-bgDay {
+      background: var(--ordinary-white-color);
+    }
+  
+    .extramenu-bgNight {
+      background: #151515;
+    }
+
+    .extramenu-img {
+      display: block;
+      width: 80%;
+      height: auto;
+      aspect-ratio: 850/772;
+    }
+
+    .extramenu-item {
+      margin-bottom: 20px;
+    }
+
+  .extramenu-item:nth-child(1) {
+    padding-left: 0;
+  }
+
+  .extramenu-item:nth-child(2) {
+    padding-left: 0;
+  }
+
+  .extramenu-item:nth-child(3) {
+    padding-left: 0;
+  }
+
+  .extramenu-item:nth-child(4) {
+    padding-left: 0;
+  }
+
+  .extramenu-item:nth-child(5) {
+    padding-left: 0;
+  }
+
+  .extramenu-buttons {
+    margin-bottom: 20px;
+  }
+
+  .reservation-content {
+    width: 100%;
+    padding: 24px 0 77px 0;
+  }
+  
+  .reservation-form {
+    margin: 0 auto;
+  }
+  .checkOut-header {
+    padding: 43px 66px 27px 52px;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .toggle {
+    display: flex;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: center;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    transform: translateX(100%);
+    transition: transform 0.5s;
+    background-color:rgba(21, 21, 21, 0.82); 
+    gap: 10px 0;
+    margin-left: 0;
+  }
+
+  .nav-list.active {
+  transform: translateX(0);
+    }
+
+    .menu-infoSection {
+      width: 100%;
+    }
+
+    .about-container {
+      padding-left: 20px;
+      padding-right: 30px;
+      padding-bottom: 0;
+    }
+
+    .select-button {
+      width: 60px;
+      height: 50px;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+  .ingradientItem-title {
+      width: 46%;
+    }
+
+  .dotted {
+      width: 36%;
+  }
+
+  .reservation-container {
+      height: 840px;
+  }
+
+  .reservation-form {
+    width: 460px;
+    height: auto;
+    padding: 20px 20px 70px 20px;
+
+  }
+  
+  .form-header {
+    margin-bottom: 110px;
+  }
+
+  .form-item {
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  .form-inp {
+    width: 62%;
+  }
+
+  .checkOut-header {
+    padding: 20px 30px 20px 30px;
+  }
+  .checkOut-headerImg {
+    width: 20px;
+}
+  .checkOut-headerButtons {
+    font-size: 2.6rem;
+  }
+
+  .help-btn {
+    margin-right: 20px;
+  }
+  .checkOut-content {
+    width: 100%;
+    padding: 80px 0 20px 0;
+  }
+
+  .checkOut-info {
+    width: 100%;
+  }
+  .accordion {
+    margin-left: 57px;
+    margin-right: 30px;
+  }
+  .accordion-item {
+   
+    width: 100%;
+  }
+
+  .bill {
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .price-item {
+    gap: 12px;
+  }
+  .card-day {
+    box-shadow: none;
+  }
+  .card-night {
+    border: none;
+  }
+
+  .bill-day {
+    box-shadow: none;
+  }
+  .bill-night {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 5.6px;
+  }
+  .cupon-title {
+    font-size: 26px;
+  }
+  .nav-bar {
+    padding: 20px 0;
+  }
+  .nav-list {
+    top: 72px;
+  }
+
+  .about-container {
+    padding-top: 100px;
+  }
+
+  .about-title {
+    margin-bottom: 32px;
+  }
+  .about-subtitle {
+    margin-bottom: 32px;
+  }
+
+  .location {
+    margin-bottom: 40px;
+  }
+
+  .search-btn {
+    height: 36px;
+  }
+
+  .main-btn {
+    padding: 12px 36px;
+  }
+
+  .menu-container {
+    padding-top: 54px;
+  }
+
+  .menu-title {
+    font-size: 10.2rem
+  }
+
+  .menu-infoTitle {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 4rem;
+  }
+
+  .pizzaItem-title {
+    margin-bottom: 8px;
+    padding-left: 8px;
+    font-size: 3.8rem;
+  }
+
+  .dotted-day {
+    border-bottom: 2px dotted var(--subtitle-color);
+  }
+
+  .dotted-night {
+    border-bottom: 2px dotted #ffddc8; 
+  }
+
+  .menu-infoBtn {
+    width: 120px;
+    height: 40px;
+    margin: 20px auto 30px 10px;
+  }
+
+  .extramenu-bunner {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .extramenu-item {
+    margin-bottom: 14px;
+  }
+
+  .extramenu-btn:nth-child(1) {
+    padding: 14px 12px;
+    margin-left: 30px;
+  }
+
+  .extramenu-btn:nth-child(2) {
+    padding: 14px 22px;
+  }
+
+  .reservation-container {
+    height: 543px;
+    padding-top: 30px;
+  }
+
+  .reservation-topic {
+    margin-bottom: 12px;
+  }
+
+  .reservation-form {
+    width: 100%;
+    border-radius: 0;
+    padding: 20px 20px 30px 20px;
+  }
+
+  .form-header {
+    margin-bottom: 60px;
+  }
+
+  .reservation-form p {
+    font-size: 2.0rem;
+  }
+
+  .form-itemText {
+    font-size: 2.4rem;
+  }
+
+  .reservation-submit {
+    margin: 46px auto;
+  }
+
+  .submit-btn {
+    width: 120px;
+    height: 40px;
+  }
+
+  .checkOut-content {
+    padding-bottom: 0;
+  }
+
+  .account-areaButtons {
+    gap: 20px;
+    font-size: 1.6rem;
+  }
+
+  .accordion-item {
+    height: 60px;
+  }
+
+  .checkOut-icon > img {
+    width: 22px;
+  }
+
+  .address {
+      margin-top: 160px; 
+  }
+
+  .payment {
+      margin-top: 146px;
+  }
+
+  .accordion-text {
+      padding: 15px 24px;
+  }
+
+  .delivery-adress {
+      width: 100%;
+      padding: 5px 10px;
+      font-size: 2.0rem;
+  }
+
+  .payment-text {
+      padding: 5px 10px;
+      font-size: 2.0rem;
+  }
+
+  .checkOut-icon {
+      width: 44px;
+      height: 44px;
+      z-index: 3;
+      left: -22px;
+  }
+
+  .checkOut-iconTitle {
+      margin-left: 36px;
+  } 
+
+  .checkOut-area {
+    width: 100%;
+  }
+
+  .bill {
+    width: 100%;
+    padding: 27px 10px;
+    height: auto;
+  }
+
+  .bill-itemText {
+    width: 70%;
+  }
+
+  .order-choice { 
+    width: 100%;
+  }
+  .order-select {
+    padding: 3px 20px 3px 5px;
+  }
+
+  .count-block {
+    width: 58px;
+  }
+
+  .cost {
+    width: 46px;
+  }
+
+  .details-check {
+    flex-direction: column;
+  }
+  
+  .checkOut-bg {
+    width: 250px;
+    height: 250px;
+  }
+}
