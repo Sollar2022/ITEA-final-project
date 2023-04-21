@@ -1,3 +1,3 @@
 # ITEA-final-project
 pizza mania
-sollar2022.github.io
+https://sollar2022.github.io/ITEA-final-project/
