@@ -162,6 +162,12 @@
       aspect-ratio: 970/698;
     }
     
+    .select-button {
+      position: absolute;
+      right: 20px;
+      top: 524px;
+    }
+
     .menu-info {
       display: flex;
       flex-direction: column;
@@ -293,10 +299,14 @@
     }
 
     .select-button {
-      width: 60px;
-      height: 50px;
+      position: fixed;
+      right: 90px;
+      top: 34px;
+      width: 38px;
+      height: 38px;
       margin-left: auto;
       margin-right: 0;
+      z-index: 1000;
     }
 
   .ingradientItem-title {
@@ -398,6 +408,9 @@
     top: 72px;
   }
 
+  .select-button {
+    top: 16px;
+  }
   .about-container {
     padding-top: 100px;
   }
